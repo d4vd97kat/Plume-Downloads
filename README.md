@@ -15,6 +15,8 @@ Plume privilégie les corrections sûres et conserve les cas ambigus. Les barres
 
 ## Versions
 
+La version **0.1.25** améliore « j'ai mange » / « j'ai mangé », « Jecris » / « J'écris », « à Paris » et l'espacement après la ponctuation. Consulte les [notes de version](Notes-de-version-0.1.25.md).
+
 Les versions stables de Plume sont publiées dans l’onglet [Releases](https://github.com/d4vd97kat/Plume-Downloads/releases). Télécharge le fichier `Plume-windows-x64.zip` de la version souhaitée.
 
 ## Installation
