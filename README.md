@@ -2,6 +2,17 @@
 
 Plume est un correcteur français pour Windows. Il corrige les mots pendant la frappe, ajoute les espaces après la ponctuation et conserve les mots personnels sur l’ordinateur. Les textes saisis ne sont pas envoyés à un service en ligne.
 
+**[Télécharger la dernière version de Plume](https://github.com/d4vd97kat/Plume-Downloads/releases/latest)**
+
+## Au fil de la frappe
+
+- Orthographe, accents, majuscules et espaces de ponctuation.
+- Accords simples et conjugaisons, avec un réglage dédié.
+- Reconnaissance locale des noms propres selon le contexte.
+- Mots protégés, abréviations personnelles, apprentissage et raccourcis personnalisables.
+
+Plume privilégie les corrections sûres et conserve les cas ambigus. Les barres d'adresse des navigateurs Chromium sont exclues de la correction automatique.
+
 ## Versions
 
 Les versions stables de Plume sont publiées dans l’onglet [Releases](https://github.com/d4vd97kat/Plume-Downloads/releases). Télécharge le fichier `Plume-windows-x64.zip` de la version souhaitée.
