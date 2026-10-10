@@ -15,7 +15,7 @@ Plume privilégie les corrections sûres et conserve les cas ambigus. Les barres
 
 ## Versions
 
-La version **0.1.25** améliore « j'ai mange » / « j'ai mangé », « Jecris » / « J'écris », « à Paris » et l'espacement après la ponctuation. Consulte les [notes de version](Notes-de-version-0.1.25.md).
+La version **0.1.26** corrige l'installateur des mises à jour et ajoute une annonce visible dans le bandeau principal. Consulte les [notes de version](Notes-de-version-0.1.26.md).
 
 Les versions stables de Plume sont publiées dans l’onglet [Releases](https://github.com/d4vd97kat/Plume-Downloads/releases). Télécharge le fichier `Plume-windows-x64.zip` de la version souhaitée.
 
@@ -29,6 +29,8 @@ Ne lance pas le programme directement depuis l’aperçu du ZIP.
 
 ## Mises à jour
 
-Dans l’onglet **Options** de Plume, la recherche automatique des mises à jour peut être activée ou désactivée. Lorsqu’une nouvelle version est disponible, Plume la télécharge après confirmation et redémarre. Tes mots, abréviations et réglages restent enregistrés localement.
+La recherche automatique peut être activée dans **Options**. Lorsqu'une nouvelle version est trouvée, une annonce apparaît dans le bandeau principal avec **Mettre à jour**. Après confirmation, Plume prépare le paquet avant de se fermer, puis relance le moteur et l'interface. Tes mots, abréviations et réglages restent enregistrés localement.
+
+**Versions 0.1.25 et antérieures : une mise à jour manuelle est nécessaire pour recevoir le nouvel installateur.** Quitte Plume près de l'horloge, décompresse le nouveau ZIP et remplace ensemble `Plume.exe` et `_internal` dans ton dossier actuel. Consulte les étapes détaillées dans les notes de version.
 
 Ce dépôt public contient les paquets Windows et leurs notes de version.
