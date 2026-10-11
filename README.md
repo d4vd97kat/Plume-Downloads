@@ -26,7 +26,7 @@ Tu tapes ton message comme d'habitude. Plume peut corriger un mot mal écrit, aj
 
 ![Plume en mode sombre : les mêmes fonctions sur un fond vert profond, avec des textes clairs.](assets/plume-interface-sombre.png)
 
-*Captures réelles de l'interface 0.1.39 préparée, avec des données d'exemple. La version actuellement proposée au téléchargement est 0.1.26 ; son interface peut donc différer.*
+*Captures réelles de Plume 0.1.39, avec des données d'exemple.*
 
 Trois onglets pour trouver facilement ce dont tu as besoin :
 
@@ -84,7 +84,7 @@ Plume est prévu pour **Windows 64 bits**. Les barres d'adresse de Brave, Chrome
 
 ## Les mises à jour
 
-La version actuellement disponible au téléchargement est **0.1.26** : **[voir ses nouveautés](Notes-de-version-0.1.26.md)**. La nouvelle interface présentée ici est préparée pour **0.1.39** : **[découvrir les changements](Notes-de-version-0.1.39.md)**.
+La version disponible au téléchargement est **0.1.39** : **[voir ses nouveautés](Notes-de-version-0.1.39.md)**.
 
 Quand la recherche automatique est activée, Plume cherche une nouvelle version à l'ouverture de son interface. S'il en trouve une, une annonce apparaît en haut. Tu choisis quand la télécharger et l'installer. Tu peux aussi vérifier depuis les réglages.
 

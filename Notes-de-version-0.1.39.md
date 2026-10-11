@@ -1,7 +1,4 @@
-# Plume 0.1.39 — aperçu de la version préparée
-
-Cette version est compilée localement. Ces notes présentent ses changements ;
-elles n'annoncent pas encore sa disponibilité dans les téléchargements publics.
+# Plume 0.1.39
 
 ## Une interface plus simple
 
@@ -14,8 +11,11 @@ elles n'annoncent pas encore sa disponibilité dans les téléchargements public
 
 ## Une aide pendant la frappe
 
-Cette version reprend les améliorations locales depuis 0.1.26 : correction de mots,
+Cette version reprend les améliorations depuis 0.1.26 : correction de mots,
 ponctuation, majuscules, accords simples, conjugaisons et homophones selon le contexte.
+Elle reconnaît mieux des constructions comme « l’on peut jouer », « ils ont une idée »
+et « faut juste retrouver ». Les accords simples et conjugaisons sont inclus dès
+que le correcteur est actif.
 Les règles de correction fonctionnent sur le PC. Plume peut encore laisser passer
 des fautes ou se tromper ; il ne connaît pas toutes les règles du français.
 
