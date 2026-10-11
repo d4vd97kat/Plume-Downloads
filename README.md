@@ -49,8 +49,13 @@ Trois onglets pour trouver facilement ce dont tu as besoin :
 | `slt` | `salut` | Utiliser une abréviation que tu as choisie. |
 | `J'ai mange` | `J'ai mangé` | Aider avec certains accords et conjugaisons simples. |
 | `en france` | `en France` | Reconnaître certains noms de lieux. |
+| `Je mapele` | `Je m'appelle` | Retrouver le pronom et la bonne conjugaison. |
+| `Il doit mapele` | `Il doit m'appeler` | Tenir compte des mots autour. |
+| `a mon goût` | `à mon goût` | Choisir le bon « a / à » dans les cas reconnus. |
 
 *L'animation montre des exemples préparés, comme la démonstration dans Plume. La correction d'un vrai message dépend aussi des mots autour. Plume progresse encore : il peut laisser passer une faute ou se tromper.*
+
+La version **0.1.50** apporte aussi un dictionnaire plus riche, un analyseur de phrase et un modèle de correction qui fonctionne sur ton PC. Ils aident Plume à choisir certaines formes selon le sujet et les mots autour.
 
 ### Tes mots, à ta façon
 
@@ -84,7 +89,7 @@ Plume est prévu pour **Windows 64 bits**. Les barres d'adresse de Brave, Chrome
 
 ## Les mises à jour
 
-La version disponible au téléchargement est **0.1.39** : **[voir ses nouveautés](Notes-de-version-0.1.39.md)**.
+La version disponible au téléchargement est **0.1.50** : **[voir ses nouveautés](Notes-de-version-0.1.50.md)**.
 
 Quand la recherche automatique est activée, Plume cherche une nouvelle version à l'ouverture de son interface. S'il en trouve une, une annonce apparaît en haut. Tu choisis quand la télécharger et l'installer. Tu peux aussi vérifier depuis les réglages.
 
