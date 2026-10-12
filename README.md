@@ -55,7 +55,11 @@ Trois onglets pour trouver facilement ce dont tu as besoin :
 
 *L'animation montre des exemples préparés, comme la démonstration dans Plume. La correction d'un vrai message dépend aussi des mots autour. Plume progresse encore : il peut laisser passer une faute ou se tromper.*
 
-La version **0.1.50** apporte aussi un dictionnaire plus riche, un analyseur de phrase et un modèle de correction qui fonctionne sur ton PC. Ils aident Plume à choisir certaines formes selon le sujet et les mots autour.
+**Oria est l'IA locale de Plume.** Elle aide à choisir une correction en regardant les mots autour : qui fait l'action, quel nom accompagne un adjectif, ou quel auxiliaire précède un participe.
+
+La version **0.1.56** contient une Oria réentraînée et des améliorations des accords et des conjugaisons ajoutées depuis la dernière version publique. Par exemple, `On travail aujourd'hui.` peut devenir **`On travaille aujourd'hui.`**, et `Ces vitres semblent vraiment sale.` peut devenir **`Ces vitres semblent vraiment sales.`**
+
+Oria progresse, mais Plume ne corrige pas encore toutes les fautes. L'entraînement utilise des textes publics et des exemples préparés, **aucun de tes messages**.
 
 ### Tes mots, à ta façon
 
@@ -89,7 +93,7 @@ Plume est prévu pour **Windows 64 bits**. Les barres d'adresse de Brave, Chrome
 
 ## Les mises à jour
 
-La version disponible au téléchargement est **0.1.50** : **[voir ses nouveautés](Notes-de-version-0.1.50.md)**.
+La version disponible au téléchargement est **0.1.56** : **[voir ses nouveautés](Notes-de-version-0.1.56.md)**.
 
 Quand la recherche automatique est activée, Plume cherche une nouvelle version à l'ouverture de son interface. S'il en trouve une, une annonce apparaît en haut. Tu choisis quand la télécharger et l'installer. Tu peux aussi vérifier depuis les réglages.
 
