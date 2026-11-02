@@ -2,9 +2,9 @@
 
 **Un correcteur gratuit pour écrire en français sur Windows, avec Eira pour relire le contexte.**
 
-**[Télécharger Miekri pour Windows](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Plume-windows-x64.zip)** ·
+**[Installer Miekri avec Eira pour Windows](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Installer-Miekri.exe)** ·
 [Nouveautés de la 2.0](Notes-de-version-2.0.md) ·
-[Installer le modèle Eira](#activer-le-modèle-eira)
+[Une seule installation](#bien-démarrer)
 
 ![Accueil de Miekri : fond bleu nuit, disque central, état de correction et accès Protection, Réglages, Ajustements et Eira.](assets/miekri-accueil.png)
 
@@ -31,36 +31,37 @@ Les exemples sont préparés et ne constituent pas un taux général de précisi
 
 ## Bien démarrer
 
-1. Télécharge le [ZIP Windows](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Plume-windows-x64.zip).
-2. Fais un clic droit sur le ZIP, puis **Extraire tout** dans un dossier personnel.
-3. Garde **Plume.exe** et **_internal** ensemble, puis ouvre **Plume.exe**.
-   Le nom technique historique est conservé pour assurer la continuité des installations.
-4. Si la correction est en pause, active-la depuis le disque central.
+1. Télécharge **[Installer-Miekri.exe](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Installer-Miekri.exe)**.
+2. Ouvre ce fichier, puis clique sur **Installer Miekri et Eira**.
+3. Une fois terminé, clique sur **Ouvrir Miekri**.
 
-Miekri est prévu pour **Windows 64 bits**. Le menu donne accès au dictionnaire,
-aux raccourcis et à la rédaction. Tes mots protégés, abréviations et réglages
-restent personnels. Fermer la fenêtre peut laisser le correcteur actif près
-de l’horloge ; son menu permet de le quitter.
+L’installateur récupère Miekri et le modèle Eira au même endroit. Tu n’as plus
+à télécharger ni à extraire deux archives. Un raccourci peut être ajouté au
+Bureau et au menu Démarrer. Aucun compte ni Python à installer.
 
-## Activer le modèle Eira
+Le premier téléchargement représente environ **5 Go** : prévois **6 Go libres**
+et une connexion Internet. Tu peux arrêter puis relancer l’installateur pour
+reprendre. Si Eira est déjà présente et conforme, son modèle est conservé.
+Les fichiers sont vérifiés avant installation ; une ancienne version remplacée
+est sauvegardée. Si Miekri fonctionne déjà, quitte-le depuis son icône près de
+l’horloge avant de remplacer ses fichiers.
 
-Les règles de correction locale fonctionnent sans télécharger de grand modèle.
-Pour ajouter la relecture avec le modèle Eira :
-
-1. Installe d’abord Miekri 2.0.
-2. Télécharge le [pack d’installation Eira](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Miekri-Eira-Installer-windows-x64.zip).
-3. Extrais son contenu **dans le même dossier que Plume.exe**.
-4. Ouvre **Installer-Eira.bat**. Il télécharge environ **5 Go** et vérifie les
-   fichiers avant de les installer. Prévois au moins **6 Go libres**.
-5. Quitte Miekri depuis son icône près de l’horloge, puis relance-le.
-
-Le modèle est Qwen3-8B, préentraîné, avec un runtime local. Ses besoins en mémoire
-et ses performances dépendent du PC ; ce grand modèle n’est pas adapté à toutes
-les machines. Aucun téléchargement du modèle ne démarre à l’ouverture de Miekri.
-Si un pack conforme est déjà présent, l’installateur le vérifie sans le remplacer.
-
+Miekri est prévu pour **Windows 64 bits**. Les règles de correction fonctionnent
+sans le grand modèle ; l’installation recommandée prépare aussi Eira pour la
+relecture. Ses besoins en mémoire et ses performances dépendent du PC.
+Le modèle est Qwen3-8B, préentraîné ; son chargement peut prendre un moment.
 L’accueil distingue la disponibilité d’Eira de celle du correcteur local.
-La correction locale peut rester active pendant le chargement du modèle.
+
+Tes mots protégés, abréviations et réglages restent personnels. Fermer la fenêtre
+peut laisser le correcteur actif près de l’horloge ; son menu permet de le quitter.
+
+### Installation manuelle
+
+Les [archives de la release](https://github.com/d4vd97kat/Plume-Downloads/releases/tag/v2.0.0)
+restent disponibles : Plume-windows-x64.zip pour l’application et
+Miekri-Eira-Installer-windows-x64.zip pour préparer le modèle séparément.
+Leurs noms historiques sont conservés pour les anciennes mises à jour.
+L’installateur unique ci-dessus est le parcours recommandé.
 
 ## Tes textes restent sur ton PC
 

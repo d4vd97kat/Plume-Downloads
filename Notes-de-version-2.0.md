@@ -18,7 +18,15 @@ Eira reste l’assistant de relecture local. Les anciens téléchargements sont 
   des reformulations et des changements de nombre non justifiés.
 - Préservation des mots protégés, abréviations, refus, réglages et annulations.
 
-## Télécharger
+## Installation simplifiée
+
+**[Télécharger Installer-Miekri.exe](https://github.com/d4vd97kat/Plume-Downloads/releases/latest/download/Installer-Miekri.exe)** :
+un seul fichier à ouvrir, puis « Installer Miekri et Eira ». L’application et le
+modèle sont préparés ensemble, avec vérification, reprise des téléchargements
+interrompus et conservation d’un modèle conforme déjà présent. Le premier
+chargement représente environ 5 Go ; prévoir 6 Go libres. La version reste 2.0.0.
+
+## Archives pour l’installation manuelle
 
 - **Plume-windows-x64.zip** : Miekri pour Windows 64 bits. Extraire entièrement
   et garder Plume.exe avec _internal. Les noms techniques historiques restent
